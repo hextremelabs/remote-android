@@ -20,4 +20,4 @@ src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012
 Contributions
 -------
 
-Interested in expanding the capabilities? Contact me 👆🏾
+Interested in expanding the capabilities of Remote? Contact me 👆🏾
