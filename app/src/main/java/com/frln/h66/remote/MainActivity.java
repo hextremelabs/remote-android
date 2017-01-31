@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         ((ApplicationE) getApplication()).activity = this;
 
-        message.setText("Holla! Me is rEmotE. Me is LIke commands. MeRS IS.D D .......\nYup! Not retarded. Will be out of your face in...");
+        message.setText("Hi, I'm remote. I'll be out of your way in 6 seconds");
 
         if(this != null){
-            CountDownTimer c = new CountDownTimer(Utils.Constants.display_time, 1000) {
+            CountDownTimer c = new CountDownTimer(6000, 1000) {
 
                 @Override
                 public void onTick(long l) {

@@ -8,7 +8,9 @@ Powered by FirebaseRealTimeDatabase and Laziness.
 
 P.S: You'll need to set up Firebase for your project and setup a `google-services.json` file. The Android and iOS apps must share the same project on firebase.
 
-Developed By
+Too lazy to add screenshots.
+
+Wanna talk?
 -------
 
 Akapo Damilola (helios66) - <fdamilola@gmail.com>

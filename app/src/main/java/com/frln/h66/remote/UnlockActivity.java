@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -42,6 +43,7 @@ public class UnlockActivity extends AppCompatActivity implements Done {
     @Override
     public void complete() {
         if(this != null){
+            Toast.makeText(this, "Attempting to unlock phone.", Toast.LENGTH_SHORT);
             CountDownTimer c = new CountDownTimer(Utils.Constants.display_time, 1000) {
 
                 @Override

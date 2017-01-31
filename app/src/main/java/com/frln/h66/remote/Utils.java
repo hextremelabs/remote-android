@@ -1,7 +1,6 @@
 package com.frln.h66.remote;
 
 import android.content.Context;
-import android.util.Log;
 
 /**
  * @author fdamilola on 31/01/2017.
@@ -16,20 +15,14 @@ public class Utils {
 
     public static class WifiHotspot{
         public static void performOp(Context context, boolean onOff){
-            Log.e("Fact?", "Starts performing....wH");
             ApManager.configApState(context);
         }
     }
 
     public static class Wifi{
         public static void performOp(Context context, boolean onOff){
-            Log.e("Fact?", "Starts performing....wf");
-            if(ApManager.isApOn(context)){
+            if(ApManager.isApOn(context) && onOff){
                 ApManager.configApState(context);
-            }
-
-            if(onOff){
-                Security.unlockOrLockDevice(context, true);
             }
             ApManager.switchWifi(context, onOff);
         }
@@ -37,7 +30,6 @@ public class Utils {
 
     public static class Security{
         public static void unlockOrLockDevice(Context context, boolean unlockLock){
-            Log.e("Fact?", "Starts performing....ud");
             KeyGuardManager.lockUnlock(context, unlockLock);
 
         }
