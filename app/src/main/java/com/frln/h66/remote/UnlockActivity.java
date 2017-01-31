@@ -4,7 +4,6 @@ import android.app.KeyguardManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.os.CountDownTimer;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Window;
@@ -43,9 +42,6 @@ public class UnlockActivity extends AppCompatActivity implements Done {
     @Override
     public void complete() {
         if(this != null){
-            Snackbar.make(this.findViewById(android.R.id.content), "Remote (Yes, me!) successfully (well, somewhat) unlocked your device. In fact, " +
-                    "I think I have done more than Buhari in terms of promises and action.. " +
-                    "I will be out of your way shortly....", Snackbar.LENGTH_INDEFINITE).show();
             CountDownTimer c = new CountDownTimer(Utils.Constants.display_time, 1000) {
 
                 @Override

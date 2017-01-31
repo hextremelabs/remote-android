@@ -15,13 +15,16 @@ public class Commander {
             return;
         }
 
-        Log.e("Should perform", action ? command.commandTitle:command.commandTitleReverse);
+        Log.e(command.commandHash, action ? command.commandTitle:command.commandTitleReverse);
         switch (command.commandHash) {
-            case "7f1b6c8706d5ace695ff5aca9320d795":
+            case "5b05a57590f22149666243fde88d0eca":
                 Utils.WifiHotspot.performOp(context, action);
                 break;
             case "70a751700823a55bf4c1d1d36b0300fc":
                 Utils.Security.unlockOrLockDevice(context, action);
+                break;
+            case "8297127b6822b2840a8d80b28895aab2":
+                Utils.Wifi.performOp(context, action);
                 break;
             default:
                 break;

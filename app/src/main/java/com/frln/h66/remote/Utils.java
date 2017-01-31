@@ -17,6 +17,20 @@ public class Utils {
     public static class WifiHotspot{
         public static void performOp(Context context, boolean onOff){
             Log.e("Fact?", "Starts performing....wH");
+            ApManager.configApState(context);
+        }
+    }
+
+    public static class Wifi{
+        public static void performOp(Context context, boolean onOff){
+            Log.e("Fact?", "Starts performing....wf");
+            if(ApManager.isApOn(context)){
+                ApManager.configApState(context);
+            }
+
+            if(onOff){
+                Security.unlockOrLockDevice(context, true);
+            }
             ApManager.switchWifi(context, onOff);
         }
     }

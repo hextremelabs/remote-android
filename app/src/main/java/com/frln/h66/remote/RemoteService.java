@@ -38,7 +38,6 @@ public class RemoteService extends Service {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 // This method is called once with the initial value and again
                 // whenever data at this location is updated.
-                Log.e("SNAPsHOP!", dataSnapshot.toString());
                 if(dataSnapshot.getValue() != null){
                     if(RemoteService.justStarted){
                         boolean action = Boolean.parseBoolean(dataSnapshot.child("action").getValue(String.class));
