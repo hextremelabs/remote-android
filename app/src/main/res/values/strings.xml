@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Remote</string>
+    <string name="title_activity_unlock">UnlockActivity</string>
+    <string name="hi_i_am_remote_i_seem_drab_yeah_of_course_i_do_you_haven_t_pimped_me_up_yet_o_o">Hi, I am remote. I seem drab yeah? Of course I do, you haven\'t pimped me up yet. o_o. Dami is lazy, he only added options he needed immediately.</string>
+    <string name="_10_s">10 s</string>
+</resources>

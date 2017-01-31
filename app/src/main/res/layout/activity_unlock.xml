@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:keepScreenOn="true"
+    android:background="@android:color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+    tools:context="com.frln.h66.remote.UnlockActivity">
+
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/timerText"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/_10_s"
+            android:gravity="center"
+            android:typeface="normal"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            />
+
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:text="@string/hi_i_am_remote_i_seem_drab_yeah_of_course_i_do_you_haven_t_pimped_me_up_yet_o_o"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
