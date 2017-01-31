@@ -1,8 +1,10 @@
-# Remote-android
-## Remote Android Server. To be used with the remote-ios client.
+# Remote-Android
+## Remote Android Server. To be used with the [Remote-iOS](https://github.com/hextremelabs/remote-ios) client.
 
 **READ THIS!!!!**
-I wrote some dope shit on the other one. I am tired abeg. Check [Remote iOS](https://github.com/hextremelabs/remote-ios)
+I wrote some dope stuff on the other one. 
+
+Check [Remote-iOS](https://github.com/hextremelabs/remote-ios)
 
 Powered by FirebaseRealTimeDatabase and Laziness.
 
