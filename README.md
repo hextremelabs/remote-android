@@ -2,9 +2,7 @@
 ## Remote Android Server. To be used with the [Remote-iOS](https://github.com/hextremelabs/remote-ios) client.
 
 **READ THIS!!!!**
-I wrote some dope stuff on the other one. 
-
-Check [Remote-iOS](https://github.com/hextremelabs/remote-ios)
+I wrote some dope stuff on the client repo. 
 
 Powered by FirebaseRealTimeDatabase and Laziness.
 
